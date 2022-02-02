@@ -43,7 +43,9 @@ alias la='ls -a'
 alias ll='ls -ltr'
 alias lsp='find "$PWD" -maxdepth 1'
 
-alias nnn='nnn -dco'
+alias nnn='nnn -dcoH'
+alias yv='youtube-viewer'
+alias yva='youtube-viewer -a'
 
 # keybindings
 bindkey "^[ " autosuggest-accept
