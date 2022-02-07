@@ -43,6 +43,9 @@ alias la='ls -a'
 alias ll='ls -ltr'
 alias lsp='find "$PWD" -maxdepth 1'
 
+alias pacmans='sudo ROZB3_PAC_SKIP=1 pacman'
+alias parus='ROZB3_PAC_SKIP=1 paru'
+
 alias nnn='nnn -dcoH'
 alias yv='youtube-viewer'
 alias yva='youtube-viewer -a'
