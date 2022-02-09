@@ -24,9 +24,6 @@ fi
 # Export environment variable
 export RUSTC_WRAPPER=/usr/bin/sccache
 
-# Application init
-eval "$(zoxide init zsh)"
-
 # Alias
 alias g.='gitui'
 alias ga='git add'
