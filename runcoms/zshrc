@@ -43,6 +43,9 @@ alias lsp='find "$PWD" -maxdepth 1'
 alias pacmans='sudo ROZB3_PAC_SKIP=1 pacman'
 alias parus='ROZB3_PAC_SKIP=1 paru'
 
+alias tslen='gtranslate -s en -t id'
+alias tslid='gtranslate -s id -t en'
+
 alias nnn='nnn -dcoH'
 alias yv='youtube-viewer'
 alias yva='youtube-viewer -a'
