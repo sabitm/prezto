@@ -25,6 +25,8 @@ fi
 export RUSTC_WRAPPER=/usr/bin/sccache
 
 # Alias
+alias cargo='mold -run cargo'
+
 alias g.='gitui'
 alias ga='git add'
 alias gb='git branch'
